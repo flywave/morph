@@ -3,8 +3,8 @@ package commands
 import (
 	"context"
 
-	"github.com/mattermost/morph"
-	"github.com/mattermost/morph/apply"
+	"github.com/flywave/morph"
+	"github.com/flywave/morph/apply"
 	"github.com/spf13/cobra"
 )
 

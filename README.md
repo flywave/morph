@@ -1,8 +1,8 @@
 ![](https://avatars.githubusercontent.com/u/80110794?s=200&v=4)
 
 
-[![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/mattermost/morph/CI)](https://github.com/mattermost/morph/actions/workflows/ci.yml?query=branch%3Amaster)
-[![GoDoc](https://pkg.go.dev/badge/github.com/mattermost/migrate)](https://pkg.go.dev/github.com/mattermost/morph)
+[![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/mattermost/morph/CI)](https://github.com/flywave/morph/actions/workflows/ci.yml?query=branch%3Amaster)
+[![GoDoc](https://pkg.go.dev/badge/github.com/mattermost/migrate)](https://pkg.go.dev/github.com/flywave/morph)
 
 # Morph
 
@@ -18,9 +18,9 @@ It can be used as a library or a CLI tool.
 import (
     "context"
 
-    "github.com/mattermost/morph"
-    "github.com/mattermost/morph/drivers/mysql"
-    "github.com/mattermost/morph/sources/embedded"
+    "github.com/flywave/morph"
+    "github.com/flywave/morph/drivers/mysql"
+    "github.com/flywave/morph/sources/embedded"
 )
 
 src, err := embedded.WithInstance(&embedded.AssetSource{
@@ -54,7 +54,7 @@ engine.ApplyAll()
 To install `morph` you can use:
 
 ```bash
-go install github.com/mattermost/morph/cmd/morph@latest
+go install github.com/flywave/morph/cmd/morph@latest
 ```
 
 Then you can apply your migrations like below:

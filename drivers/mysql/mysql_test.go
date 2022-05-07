@@ -14,8 +14,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mattermost/morph/drivers"
-	"github.com/mattermost/morph/models"
+	"github.com/flywave/morph/drivers"
+	"github.com/flywave/morph/models"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/suite"
 )

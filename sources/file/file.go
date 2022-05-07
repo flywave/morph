@@ -6,7 +6,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/mattermost/morph/models"
+	"github.com/flywave/morph/models"
 )
 
 type File struct {

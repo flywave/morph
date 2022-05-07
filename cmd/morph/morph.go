@@ -3,12 +3,12 @@ package main
 import (
 	"os"
 
-	"github.com/mattermost/morph/drivers"
+	"github.com/flywave/morph/drivers"
 	"github.com/pkg/errors"
 
-	"github.com/mattermost/morph"
+	"github.com/flywave/morph"
 
-	"github.com/mattermost/morph/commands"
+	"github.com/flywave/morph/commands"
 )
 
 func main() {

@@ -8,8 +8,8 @@ import (
 	"sync"
 	"time"
 
+	"github.com/flywave/morph/drivers"
 	ms "github.com/go-sql-driver/mysql"
-	"github.com/mattermost/morph/drivers"
 )
 
 // Mutex is similar to sync.Mutex, except usable by morph to lock the db.

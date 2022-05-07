@@ -11,8 +11,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/mattermost/morph/drivers"
-	"github.com/mattermost/morph/models"
+	"github.com/flywave/morph/drivers"
+	"github.com/flywave/morph/models"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 )

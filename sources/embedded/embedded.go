@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/mattermost/morph/models"
-	"github.com/mattermost/morph/sources"
+	"github.com/flywave/morph/models"
+	"github.com/flywave/morph/sources"
 )
 
 type AssetFunc func(name string) ([]byte, error)

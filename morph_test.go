@@ -3,7 +3,7 @@ package morph
 import (
 	"testing"
 
-	"github.com/mattermost/morph/models"
+	"github.com/flywave/morph/models"
 
 	"github.com/stretchr/testify/assert"
 )

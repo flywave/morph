@@ -9,9 +9,9 @@ import (
 
 	"github.com/pkg/errors"
 
+	"github.com/flywave/morph/drivers"
+	"github.com/flywave/morph/models"
 	_ "github.com/go-sql-driver/mysql"
-	"github.com/mattermost/morph/drivers"
-	"github.com/mattermost/morph/models"
 )
 
 const driverName = "mysql"
